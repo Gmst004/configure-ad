@@ -24,10 +24,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Remotedesk into domain controller (DC-1) 
+- Start Active Directory installation.
+- Link both virtual machines (VM) on th same server.
+- Create employes using powershell.
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -36,7 +36,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+This meticulous installation is a key element in establishing a resilient and efficient Active Directory environment, laying the groundwork for streamlined user authentication, resource management, and centralized administration.
 
 ![Activedir](https://github.com/Gmst004/configure-ad/assets/155221840/22b1ac6f-3c37-42c9-8908-4bfff3948a17)
 
@@ -47,7 +47,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 ![powersheel](https://github.com/Gmst004/configure-ad/assets/155221840/d6ce0a6d-2b66-42a9-bb1c-20a6707aabd8)
 
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+Executing a pre-written script has become the next pivotal phase in this deployment process. With the script designed to generate over 10,000 employee accounts, I initiate the automated procedure on the domain controller. Once a significant portion of these accounts is generated, the focus shifts to a testing phase.
 </p>
 <br />
 
@@ -56,6 +56,7 @@ It is important to take care of the patient, to be followed by the patient, but 
 ![users](https://github.com/Gmst004/configure-ad/assets/155221840/85402303-e2f3-44ca-be0d-315a96196a76)
 
 <p>
-It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
+This is the location where employees will be displayed when utilizing PowerShell for employee creation from this point, we have the flexibility to choose any name and verify the correct creation of the account.
+We can select any account to test its login functionality
 </p>
 <br />
